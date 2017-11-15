@@ -23,7 +23,7 @@ class Gesture(object):
 
 def DefineGestures():
     dict={}
-    # 1. BEGIN ------------------------------------#
+    # 1. BEGIN ------------------------------------ #
     V=Gesture("V")
     V.set_palm((475,225),45)
     V.set_finger_pos([(490,90),(415,105)])
